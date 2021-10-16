@@ -11,7 +11,7 @@ public class Task01Main {
 
     static void codeWithNPE() {
         Object bad = null;
-
+//work pls
         bad.toString();
     }
 }
