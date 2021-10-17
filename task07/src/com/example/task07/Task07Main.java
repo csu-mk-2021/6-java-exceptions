@@ -15,10 +15,12 @@ public class Task07Main {
         //todo напишите здесь свою корректную реализацию этого метода, вместо существующей
         try {
             processor.process(); //todo вы можете заменить реализацию этого метода для ручного дебага
-        } catch (Exception e) {
-
+        } catch (java.lang.RuntimeException e) {
+            return "unchecked";
+        } catch (java.lang.Exception e) {
+            return "checked";
         }
-        return null;
+        return "none";
     }
 
 }
