@@ -19,7 +19,7 @@ public class Task05Main {
         }
     }
 
-    public static String readFile(String pathToFile) throws IOException {
+    public static String readFile(String pathToFile) throws IOException {//push again
         FileReader fileReader = new FileReader(pathToFile);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
 
