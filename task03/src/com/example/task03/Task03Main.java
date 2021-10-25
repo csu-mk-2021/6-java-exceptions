@@ -10,7 +10,7 @@ public class Task03Main {
     }
 
     //todo напишите здесь свою корректную реализацию задания
-    public static void throwCheckedException() throws IOException {
+    public static void throwCheckedException() throws IOException {//push again
         throw new IOException();
     }
 }
