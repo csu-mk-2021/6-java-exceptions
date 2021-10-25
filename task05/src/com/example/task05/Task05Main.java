@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.FileNotFoundException;
-
+//
 public class Task05Main {
     public static void main(String[] args) {
         String pathToFile = args[0]; // "/home/user/file.txt"
