@@ -21,7 +21,6 @@ public class Task02Main {
             else
                 return "осень";
         }
-        else
-            throw new IllegalArgumentException(String.format("monthNumber %d is invalid, month number should be between 1..12", monthNumber));
+        else throw new IllegalArgumentException(String.format("monthNumber %d is invalid, month number should be between 1..12", monthNumber));
     }
 }
