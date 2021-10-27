@@ -12,5 +12,6 @@ public class Task01Main {
     static void codeWithNPE() {
         Integer obj = null;
         obj = obj*8;
+
     }
 }
